@@ -29,33 +29,35 @@ An educational Android AR app that lets users select different drills and place 
 
 ## 📂 Project Structure
 
+
+```
 app/
 ├── manifests/
-│ └── AndroidManifest.xml
+│   └── AndroidManifest.xml
 ├── kotlin+java/
-│ └── com/sachin/arapp/
-│ ├── data/
-│ │ ├── Drill.kt
-│ │ └── DrillRepository.kt
-│ ├── di/
-│ │ └── AppModule.kt
-│ ├── navigation/
-│ │ └── AppNavHost.kt
-│ ├── ui/
-│ │ ├── screens/
-│ │ │ ├── ar/ArScreen.kt
-│ │ │ └── drill/
-│ │ │ ├── DrillDetailScreen.kt
-│ │ │ ├── DrillSelectionScreen.kt
-│ │ │ └── DrillViewModel.kt
-│ │ └── theme/
-│ ├── MainActivity.kt
-│ └── MyApplication.kt
+│   └── com/sachin/arapp/
+│       ├── data/
+│       │   ├── Drill.kt
+│       │   └── DrillRepository.kt
+│       ├── di/
+│       │   └── AppModule.kt
+│       ├── navigation/
+│       │   └── AppNavHost.kt
+│       ├── ui/
+│       │   ├── screens/
+│       │   │   ├── ar/ArScreen.kt
+│       │   │   └── drill/
+│       │   │       ├── DrillDetailScreen.kt
+│       │   │       ├── DrillSelectionScreen.kt
+│       │   │       └── DrillViewModel.kt
+│       │   └── theme/
+│       ├── MainActivity.kt
+│       └── MyApplication.kt
 └── assets/
-├── drill1.glb
-├── drill2.glb
-└── drill3.glb
-
+    ├── drill1.glb
+    ├── drill2.glb
+    └── drill3.glb
+```
 ---
 
 ## 📦 APK Download
